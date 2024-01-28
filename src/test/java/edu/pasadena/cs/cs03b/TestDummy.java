@@ -15,7 +15,7 @@ public class TestDummy {
    public void testDummy()
    {
      // action
-     String iResult = Dummy.calculateBase16(4, "7A543", "8BC9F");
+     String iResult = Dummy.calculateBase16(5, "7A543", "8BC9F");
      // assertion
      assertEquals("1061E2", iResult);
 
