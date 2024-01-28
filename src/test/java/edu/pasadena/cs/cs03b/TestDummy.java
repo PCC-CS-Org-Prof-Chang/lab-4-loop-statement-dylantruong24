@@ -15,9 +15,9 @@ public class TestDummy {
    public void testDummy()
    {
      // action
-     int iResult = Dummy.dummy();
+     String iResult = Dummy.calculateBase16(4, "7A543", "8BC9F");
      // assertion
-     assertEquals(0, iResult);
+     assertEquals("1061E2", iResult);
 
      // TODO: add your own test cases
 
